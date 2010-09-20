@@ -5,7 +5,7 @@
 
 In mem$d, the main pthread(master) need to work together with worker pthreads(slave) and the worker pthreads will use libevent to manage the fds, but the interfaces are not MT safe in libevent, so mem$d use work queue to assign works to these worker pthreads.
 
-= Details =
+== Details ==
 
   * The data structure and interfaces which associate with CQ in "threads.c".
    
