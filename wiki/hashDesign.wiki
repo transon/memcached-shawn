@@ -163,6 +163,7 @@ void assoc_delete(const char *key, const size_t nkey) {
        they can't find. */
     assert(*before != 0);
 }
+[http://memcached-shawn.googlecode.com/files/deleteitem.jpg]
 
 }}}
 
