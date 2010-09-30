@@ -163,9 +163,8 @@ void assoc_delete(const char *key, const size_t nkey) {
        they can't find. */
     assert(*before != 0);
 }
-[http://memcached-shawn.googlecode.com/files/deleteitem.jpg]
-
 }}}
+[http://memcached-shawn.googlecode.com/files/deleteitem.jpg]
 
   * Start the assoc maintenance thread which move bucket(rehash) from old primary hashtable(old hashtable to new primary hashtable), it will do rehash in batch mode, the number of buckets was decided by hash_bulk_move. When we want the thread to move buckets, using pthread_cond_signal to tell her.
 
