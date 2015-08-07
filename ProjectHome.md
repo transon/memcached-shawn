@@ -1,0 +1,1 @@
+2010/09/17: Current revision of memcached is 1.4.5
